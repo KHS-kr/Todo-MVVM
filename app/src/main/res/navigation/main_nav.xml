@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/todoListFragment">
+    <fragment
+        android:id="@+id/todoListFragment"
+        android:name="kr.khs.udacitiyreview1.todolist.TodoListFragment"
+        android:label="TodoListFragment" >
+        <action
+            android:id="@+id/action_todoListFragment_to_addTodoFragment"
+            app:destination="@id/addTodoFragment"
+            app:popUpTo="@id/todoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTodoFragment"
+        android:name="kr.khs.udacitiyreview1.addtodo.AddTodoFragment"
+        android:label="fragment_add_todo"
+        tools:layout="@layout/fragment_add_todo" >
+        <action
+            android:id="@+id/action_addTodoFragment_to_todoListFragment"
+            app:destination="@id/todoListFragment"
+            app:popUpTo="@id/todoListFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="addOrUpdate"
+            app:argType="long" />
+    </fragment>
+</navigation>

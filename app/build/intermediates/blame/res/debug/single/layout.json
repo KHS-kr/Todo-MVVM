@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_todo_list.xml",
+        "source": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/res/layout/fragment_todo_list.xml"
+    },
+    {
+        "merged": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_todo.xml",
+        "source": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/res/layout/fragment_add_todo.xml"
+    },
+    {
+        "merged": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_todo_list.xml",
+        "source": "/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/res/layout/item_todo_list.xml"
+    }
+]

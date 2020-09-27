@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="kr.khs.udacitiyreview1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:5:5-20:19
+12        android:allowBackup="true"
+12-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/2d0a957da850e3bd0bc874201eedcd11/core-1.3.1/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:11:9-40
+22        <activity
+22-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:12:9-19:20
+23            android:name="kr.khs.udacitiyreview1.MainActivity"
+23-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:12:19-47
+24            android:windowSoftInputMode="adjustPan" >
+24-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:13:13-52
+25            <intent-filter>
+25-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:15:17-69
+26-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:17:17-77
+28-->/Users/heeseungkim/AndroidStudioProjects/UdacitiyReview1/app/src/main/AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->[androidx.room:room-runtime:2.2.5] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/03e1d56f51f904714d066cce5d86952b/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+33            android:name="androidx.room.MultiInstanceInvalidationService"
+33-->[androidx.room:room-runtime:2.2.5] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/03e1d56f51f904714d066cce5d86952b/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+34            android:directBootAware="true"
+34-->[androidx.room:room-runtime:2.2.5] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/03e1d56f51f904714d066cce5d86952b/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+35            android:exported="false" />
+35-->[androidx.room:room-runtime:2.2.5] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/03e1d56f51f904714d066cce5d86952b/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+36
+37        <provider
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/fee8a1e5bd004e46e1a24986670eab9c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/fee8a1e5bd004e46e1a24986670eab9c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+39            android:authorities="kr.khs.udacitiyreview1.lifecycle-process"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/fee8a1e5bd004e46e1a24986670eab9c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+40            android:exported="false"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/fee8a1e5bd004e46e1a24986670eab9c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+41            android:multiprocess="true" />
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/heeseungkim/.gradle/caches/transforms-2/files-2.1/fee8a1e5bd004e46e1a24986670eab9c/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+42    </application>
+43
+44</manifest>
